@@ -1,6 +1,5 @@
 const { response } = require('express');
 const jwt = require('jsonwebtoken');
-process.loadEnvFile();
 
 const jwtValidators = (req, res=response, next) => {
     

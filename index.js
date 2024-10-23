@@ -1,5 +1,5 @@
 const express = require('express');
-process.loadEnvFile();
+require('dotenv').config();
 const { dbConnection } = require('./database/config');
 const cors = require('cors');
 
