@@ -80,6 +80,7 @@ const deleteEvent = async(req, res=response) => {
     const eventId = req.params.id;
 
     try{
+        
         const event = await Event.findById(eventId);
 
         if(!event){

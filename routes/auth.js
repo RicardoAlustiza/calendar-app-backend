@@ -11,7 +11,6 @@ const { jwtValidators } = require('../middlewares/jwtValidators');
 
 const router = Router();
 
-
 router.post(
     '/new', 
     [
